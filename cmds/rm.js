@@ -8,11 +8,10 @@ module.exports = function (id) {
       function(obj){
         return checkID(id, obj)
       }, list.todos)
-    counterDown(list)
-  //  console.log(idDown(id, list))
+    idDown(id, list)
+    list.counter = list.todos.length
     set(list)
     ls()
-    console.log(idDown(id, list))
 }
 
 
@@ -28,11 +27,11 @@ function counterDown (list) {
 
 
 function idDown (id, list) {
-  map(function(obj){
+  counterDown(list)
+  return map(function (obj){
     if (obj.id > id) {
       obj.id -= 1
     }
-    console.log(obj)
     return obj
   }, list.todos)
 }

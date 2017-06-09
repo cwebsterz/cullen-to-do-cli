@@ -1,5 +1,5 @@
 {
-  "counter": 4,
+  "counter": 6,
   "todos": [
     {
       "text": "pate",
@@ -7,18 +7,28 @@
       "completed": false
     },
     {
-      "text": "alex",
+      "text": "dog",
       "id": 2,
       "completed": false
     },
     {
-      "text": "foo",
+      "text": "cullen",
+      "id": 3,
+      "completed": false
+    },
+    {
+      "text": "fish",
       "id": 4,
       "completed": false
     },
     {
-      "text": "bar",
+      "text": "bird",
       "id": 5,
+      "completed": false
+    },
+    {
+      "text": "tiger",
+      "id": 6,
       "completed": false
     }
   ]
