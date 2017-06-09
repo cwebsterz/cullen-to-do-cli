@@ -1,9 +1,19 @@
 {
-  "counter": 1,
+  "counter": 3,
   "todos": [
     {
       "text": "hellooo",
       "id": 1,
+      "completed": false
+    },
+    {
+      "text": "pate",
+      "id": 2,
+      "completed": false
+    },
+    {
+      "text": "alex",
+      "id": 3,
       "completed": false
     }
   ]

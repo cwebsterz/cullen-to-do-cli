@@ -5,14 +5,14 @@ const [a, b, cmd, ...rest] = process.argv
 // commands
 // const help = require('./cmds/help')
 const add = require('./cmds/add')
-// const ls = require('./cmds/ls')
+ const ls = require('./cmds/ls')
 // const check = require('./cmds/check')
 // const rm = require('./cmds/rm')
 
 function handler(cmd='') {
   switch(toLower(cmd)) {
     case 'rm':
-      return rm(rest)
+      return rm(rest[0])
     case 'check':
       return check(rest)
     case 'ls':

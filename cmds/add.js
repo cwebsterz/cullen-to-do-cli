@@ -1,5 +1,6 @@
 const {get, set} = require('../lib/store')
 const { append } = require('ramda')
+const ls = require('./ls')
 
 
 module.exports = function (text) {
@@ -10,8 +11,10 @@ module.exports = function (text) {
     'id': counterUp(list),
     'completed': false
   }
-list.todos = append(creatNewObj, list.todos)
-set(list)
+
+  list.todos = append(creatNewObj, list.todos)
+  set(list)
+  ls()
 }
 
 function counterUp (list) {
