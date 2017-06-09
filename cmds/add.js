@@ -13,7 +13,7 @@ module.exports = function (text) {
   }
   list.todos = append(creatNewObj, list.todos)
   set(list)
-  ls()
+  return ls()
 }
 
 function counterUp (list) {

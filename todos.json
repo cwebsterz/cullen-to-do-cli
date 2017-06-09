@@ -19,7 +19,7 @@
     {
       "text": "fish",
       "id": 4,
-      "completed": true
+      "completed": false
     },
     {
       "text": "bird",

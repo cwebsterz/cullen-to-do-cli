@@ -11,7 +11,7 @@ module.exports = function (id) {
     idDown(id, list)
     list.counter = list.todos.length
     set(list)
-    ls()
+    return ls()
 }
 
 

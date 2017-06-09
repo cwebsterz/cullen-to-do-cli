@@ -11,7 +11,7 @@ module.exports = function(id){
     return obj
   } , list.todos)
   set(list)
-  ls()
+  return ls()
 }
 
 function checkID(id, obj){
