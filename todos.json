@@ -12,12 +12,12 @@
       "completed": false
     },
     {
-      "text": "test123",
+      "text": "foo",
       "id": 4,
       "completed": false
     },
     {
-      "text": "test123456",
+      "text": "bar",
       "id": 5,
       "completed": false
     }
