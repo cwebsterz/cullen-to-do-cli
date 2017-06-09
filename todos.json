@@ -4,32 +4,32 @@
     {
       "text": "pate",
       "id": 1,
-      "completed": false
+      "completed": true
     },
     {
       "text": "dog",
       "id": 2,
-      "completed": false
+      "completed": true
     },
     {
       "text": "cullen",
       "id": 3,
-      "completed": false
+      "completed": true
     },
     {
       "text": "fish",
       "id": 4,
-      "completed": false
+      "completed": true
     },
     {
       "text": "bird",
       "id": 5,
-      "completed": false
+      "completed": true
     },
     {
       "text": "tiger",
       "id": 6,
-      "completed": false
+      "completed": true
     }
   ]
 }

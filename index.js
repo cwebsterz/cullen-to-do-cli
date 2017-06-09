@@ -6,7 +6,7 @@ const [a, b, cmd, ...rest] = process.argv
 // const help = require('./cmds/help')
 const add = require('./cmds/add')
 const ls = require('./cmds/ls')
-// const check = require('./cmds/check')
+const check = require('./cmds/check')
 const rm = require('./cmds/rm')
 
 function handler(cmd='') {
@@ -14,7 +14,7 @@ function handler(cmd='') {
     case 'rm':
       return rm(rest[0])
     case 'check':
-      return check(rest)
+      return check(rest[0])
     case 'ls':
       return ls()
     case 'add':
