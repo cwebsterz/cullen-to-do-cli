@@ -3,11 +3,11 @@
 const { toLower } = require('ramda')
 const [a, b, cmd, ...rest] = process.argv
 // commands
-const help = require('./cmds/help')
+// const help = require('./cmds/help')
 const add = require('./cmds/add')
-const ls = require('./cmds/ls')
-const check = require('./cmds/check')
-const rm = require('./cmds/rm')
+// const ls = require('./cmds/ls')
+// const check = require('./cmds/check')
+// const rm = require('./cmds/rm')
 
 function handler(cmd='') {
   switch(toLower(cmd)) {
@@ -18,7 +18,7 @@ function handler(cmd='') {
     case 'ls':
       return ls()
     case 'add':
-      return add(rest)
+      return add(rest.join(' '))
     case 'help':
       return help()
     default:
