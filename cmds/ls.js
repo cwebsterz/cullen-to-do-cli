@@ -19,11 +19,11 @@ module.exports = function () {
   }, list.todos)
 
   console.log('----------------------')
-console.log(completedCount(list), `Items Completed`)
+console.log(completedCount(list), `Item(s) Completed`)
 
   console.log(
     list.counter - completedCount(list),
-    'Items Not Complete')
+    'Item(s) Not Complete')
 
     return `${converter.toWords(completedCount(list) / list.counter * 100)} Percent Completed`
 }

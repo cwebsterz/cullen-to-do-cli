@@ -1,34 +1,19 @@
 {
-  "counter": 6,
+  "counter": 3,
   "todos": [
     {
-      "text": "pate",
+      "text": "do dishes",
       "id": 1,
-      "completed": true
+      "completed": false
     },
     {
-      "text": "dog",
+      "text": "walk dog",
       "id": 2,
       "completed": true
     },
     {
-      "text": "cullen",
+      "text": "study for test",
       "id": 3,
-      "completed": true
-    },
-    {
-      "text": "cat",
-      "id": 4,
-      "completed": true
-    },
-    {
-      "text": "bird",
-      "id": 5,
-      "completed": true
-    },
-    {
-      "text": "tiger",
-      "id": 6,
       "completed": true
     }
   ]
