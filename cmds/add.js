@@ -11,6 +11,8 @@ module.exports = function (text) {
     'id': counterUp(list),
     'completed': false
   }
+
+
   
   list.todos = append(creatNewObj, list.todos)
   set(list)

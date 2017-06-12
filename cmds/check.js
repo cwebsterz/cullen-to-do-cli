@@ -18,6 +18,7 @@ function checkID(id, obj){
   return id == obj.id
 }
 
+
 function flipCompleted(obj){
   obj.completed = !obj.completed
   return obj

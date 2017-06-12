@@ -8,7 +8,7 @@ const add = require('./cmds/add')
 const ls = require('./cmds/ls')
 const check = require('./cmds/check')
 const rm = require('./cmds/rm')
-//const edit = require('./cmds/edit')
+
 
 function handler(cmd='') {
   switch(toLower(cmd)) {
